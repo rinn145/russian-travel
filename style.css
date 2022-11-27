@@ -43,13 +43,49 @@
     opacity: .3;
 }
 
-.lead__title{
-    font-family: 'Inter';
+.lead {
+    max-width: 984px;
+    margin: 0 auto;
+    margin-top: 56px;
+  }
+
+.lead__title {
+    max-width: 720px;
+    margin: 0 auto;
     font-style: normal;
+    text-align: center;
     font-weight: 900;
     font-size: 96px;
-    line-height: 100px;
+    line-height: 1.05;
+    color: #fff;
+}
+
+.lead__subtitle {
+    max-width: 640px;
+    margin: 0 auto;
+    margin-top: 32px;
+    font-style: normal;
     text-align: center;
-    color: #FFFFFF;
-    max-width: 720px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #fff;
+  }
+
+.lead__image {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 64px;
+  }
+
+.lead__caption {
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+    color: #fff;
 }
