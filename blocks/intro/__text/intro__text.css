@@ -9,3 +9,16 @@
     font-size: 16px;
     line-height: 163%;
 }
+
+@media screen and (max-width: 320px) {
+    .intro__text {
+    max-width: 288px;
+    max-height: 520px;
+    padding: 40px 16px auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    }
+  }

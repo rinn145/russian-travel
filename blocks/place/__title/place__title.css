@@ -9,3 +9,14 @@
     margin: 0;
     align-self: end;
 }
+
+
+  
+ @media screen and (max-width: 767px) {
+    .place__title {
+      max-width: 320px;
+      font-size: 32px;
+      line-height: 35px;
+      padding-left: 16px;
+    }
+  }
