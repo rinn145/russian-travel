@@ -1,12 +1,12 @@
 .place {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(460px 1fr));
-    grid-template-areas: 
-      "title website"
-      "img";
-    column-gap: 48px ;
-    row-gap: 48px ;
-    margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(460px 1fr));
+  grid-template-areas:
+    "title website"
+    "img";
+  column-gap: 48px;
+  row-gap: 48px;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -25,11 +25,11 @@
   }
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 767px) {
   .place {
     display: flex;
     max-width: 320px;
     flex-direction: column;
     margin-bottom: 64px;
-}
+  }
 }
