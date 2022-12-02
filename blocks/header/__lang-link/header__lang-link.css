@@ -1,4 +1,7 @@
-.header__link {
+.header__lang-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -10,12 +13,9 @@
   text-decoration: none;
 }
 
-.header__link:hover {
-  opacity: .3;
-}
 
 @media screen and (max-width: 768px) {
-  .header__link {
+  .header__lang-link {
     font-size: 18px;
     line-height: 1.3;
   }
