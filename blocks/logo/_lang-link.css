@@ -1,5 +1,22 @@
-.logo__lang-link {
-    display: flex;
+.logo__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 18px;
     align-items: center;
-    justify-content: flex-end;
+    color: #FFFF;
+    text-decoration: none;
 }
+
+.logo__link:hover {
+    opacity: .3;
+}
+
+@media screen and (max-width: 768px) {
+    .logo__link {
+      font-size: 18px;
+      line-height: 1.3;
+    }
+  }

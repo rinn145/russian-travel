@@ -2,9 +2,9 @@
 @import url(../blocks/page/page.css);
 /* logo */
 @import url(../blocks/logo/_lang-link.css);
+@import url(../blocks/logo/_link/logo__link.css);
 /* header */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 /* lead */
 @import url(../blocks/lead/lead.css);
