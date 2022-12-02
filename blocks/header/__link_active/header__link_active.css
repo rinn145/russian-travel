@@ -1,4 +1,4 @@
-.header__link__active_true{
+.header__link_active {
     text-decoration-line: underline;
     font-family: Arial, sans-serif;
     font-style: normal;
@@ -10,12 +10,12 @@
     color: #FFFF;
 }
 
-.header__link__active_true:hover {
+.header__link_active:hover {
     opacity: .3;
   }
   
   @media screen and (max-width: 768px) {
-    .header__link__active_true {
+    .header__link_active {
       font-size: 18px;
       line-height: 1.3;
     }
