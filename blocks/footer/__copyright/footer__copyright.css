@@ -7,3 +7,11 @@
     line-height: 1.1;
     color: #fff;
 }
+
+ @media screen and (max-width: 320px) {
+    .footer__copyright {
+        margin-left: 16px;
+        margin-right: 118px;
+        padding-top: 48px;
+    }
+  } 

@@ -1,7 +1,11 @@
 .place {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(460px 1fr));
-    grid-gap: 48px 40px;
+    grid-template-areas: 
+      "title website"
+      "img";
+    column-gap: 48px ;
+    row-gap: 48px ;
     margin-bottom: 80px;
 }
 
@@ -27,5 +31,5 @@
     max-width: 320px;
     flex-direction: column;
     margin-bottom: 48px;
-  }
+}
 }
