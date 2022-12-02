@@ -1,4 +1,4 @@
-.logo__link {
+.header__link {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -10,12 +10,12 @@
   text-decoration: none;
 }
 
-.logo__link:hover {
+.header__link:hover {
   opacity: .3;
 }
 
 @media screen and (max-width: 768px) {
-  .logo__link {
+  .header__link {
     font-size: 18px;
     line-height: 1.3;
   }
