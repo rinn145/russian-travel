@@ -1,4 +1,4 @@
-.logo__lang-link {
+.logo__link {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -10,12 +10,12 @@
   text-decoration: none;
 }
 
-.logo__lang-link:hover {
+.logo__link:hover {
   opacity: .3;
 }
 
 @media screen and (max-width: 768px) {
-  .ogo__lang-link {
+  .logo__link {
     font-size: 18px;
     line-height: 1.3;
   }
