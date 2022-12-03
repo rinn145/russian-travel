@@ -1,15 +1,3 @@
 .header__lang-link_active {
-    text-decoration-line: underline;
+  text-decoration: underline;
 }
-
-.header__lang-link_active:hover {
-    opacity: .3;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .header__lang-link_active {
-      font-size: 18px;
-      line-height: 1.3;
-    }
-  }
-  
