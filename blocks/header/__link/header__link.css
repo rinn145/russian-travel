@@ -17,8 +17,11 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 480px) {
-  .header__link {
+@media screen and (max-width: 767px) {
+  .header__link{
+    max-width: 288px;
+    max-height: 42px;
+    padding: 16px 16px auto;
     font-size: 18px;
     line-height: 20px;
   }
