@@ -1,20 +1,23 @@
-.lead__title {
-    font-family: Arial, sans-serif;
-    max-width: 720px;
-    margin: 0 auto;
-    font-style: normal;
-    text-align: center;
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 1.05;
-    color: #fff;
-}
+.lead__title { 
+  font-family: "Inter", "Arial ", sans-serif; 
+  max-width: 720px; 
+  margin: 0 auto; 
+  font-style: normal; 
+  text-align: center; 
+  font-weight: 900; 
+  font-size: 96px; 
+  line-height: 1.05; 
+  color: #fff; 
+} 
 
-@media screen and (max-width: 320px) {
-    .lead__title {
-      max-width: 288px;
-      max-height: 88px;
-      padding: 48px 16px auto;
-      font-size: 40px;
-    }
-  }
+
+
+@media screen and (max-width: 320px) { 
+  .lead__title { 
+    max-width: 288px; 
+    max-height: 88px; 
+    padding: 48px 16px auto; 
+    font-size: 40px; 
+  } 
+
+}
