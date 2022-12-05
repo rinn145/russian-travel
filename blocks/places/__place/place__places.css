@@ -1,15 +1,15 @@
-.place__places {
-    margin-bottom: 79px;
+.places__place {
+  margin-bottom: 79px;
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    margin-bottom: 76px;
   }
-  
-  @media screen and (max-width: 768px) {
-    .place__places {
-      margin-bottom: 76px;
-    }
+}
+
+@media screen and (max-width: 480px) {
+  .places__place {
+    margin-bottom: 50px;
   }
-  
-  @media screen and (max-width: 480px) {
-    .place__places {
-      margin-bottom: 50px;
-    }
-  }
+}

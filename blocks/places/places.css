@@ -1,6 +1,6 @@
 .places {
   margin: 0 auto;
-  padding-bottom: 92px;
+  padding: 0;
   width: calc(100% - 2*148px);
 }
 
@@ -36,4 +36,4 @@
   .places {
     width: 100%;
   }
-} 
+}
