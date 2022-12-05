@@ -4,7 +4,7 @@
     font-family: "Inter", "Arial ", sans-serif;
     font-size: 14px;
     line-height: 16px;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     color: #ffff;
   }
@@ -12,5 +12,9 @@
   @media screen and (max-width: 767px) {
     .footer__copyright {
       line-height: 14px;
+    }
+    .p{
+      margin: 0;
+      padding: 0;
     }
   }
