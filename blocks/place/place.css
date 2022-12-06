@@ -24,6 +24,6 @@
   .place {
     padding: 25px 0;
     gap: 32px;
-    grid-template-columns: minmax(304px, 1fr);
+    grid-template-columns: minmax(288px, 1fr);
   }
 }
