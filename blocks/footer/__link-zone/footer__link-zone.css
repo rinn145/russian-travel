@@ -1,28 +1,25 @@
-.intro {
-  margin: 0 auto;
-  padding: 92px 0;
-  color: white;
-  max-width: 984px;
+.footer__link-zone {
+  padding: 0;
+  margin: 0;
+  max-width: 1184px;
+  list-style: none;
+  display: flex;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .intro {
+  .footer__link-zone {
     max-width: 928px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .intro {
-    margin: 0;
-    padding: 88px 24px;
+  .footer__link-zone {
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .intro {
-    margin: 0;
-    padding: 64px 16px;
-    min-width: 288px;
+  .footer__link-zone {
+    flex-direction: column;
   }
 }
