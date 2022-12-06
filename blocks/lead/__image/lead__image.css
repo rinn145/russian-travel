@@ -5,18 +5,18 @@
   margin-top: 10px;
 }
 
-@media screen and (min-width: 1280px) {
-  .lead__image {
-    max-width: 984px;
-    max-height: 615px;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-}
-
 @media screen and (min-width: 320px) {
   .lead__image {
     margin-left: 0px;
     margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    max-width: 984px;
+    min-height: 615px;
+    margin-left: 48px;
+    margin-top: 10px;
   }
 }
