@@ -3,9 +3,10 @@
   padding: 0;
   font-family: "Inter", "Arial ", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 122%;
+  text-decoration:line;
   color: #fff;
   transition: 0.3s ease-in;
 }

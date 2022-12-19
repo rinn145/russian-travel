@@ -4,4 +4,5 @@
   padding: 0;
   min-width: 284px;
   max-width: 100%;
+  object-fit:fill;
 }

@@ -3,6 +3,7 @@
   padding: 0;
   max-width: 176px;
   height: auto;
+  object-fit:fill;
 }
 
 @media screen and (max-width: 480px) {

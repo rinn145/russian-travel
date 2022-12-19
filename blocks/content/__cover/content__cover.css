@@ -1,13 +1,13 @@
 /* 1280*/
 .content__cover {
-  margin-top: 91px;
-  margin-bottom: 95px;
+  margin-top: 92px;
+  margin-bottom: 92px;
 }
 
 /* 1024 */
 @media screen and (max-width: 1024px) {
   .content__cover {
-    margin-top: 86px;
+    margin-top: 92px;
     margin-bottom: 92px;
   }
 }
@@ -15,15 +15,15 @@
 /* 768 */
 @media screen and (max-width: 768px) {
   .content__cover {
-    margin-top: 92px;
+    margin-top: 90px;
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .content__cover {
-    margin-bottom: 64px;
     margin-top: 66px;
+    margin-bottom: 64px;
   }
 }
 
