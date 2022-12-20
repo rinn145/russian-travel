@@ -6,7 +6,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 122%;
-  text-decoration:line;
+  text-decoration:underline;
   color: #fff;
   transition: 0.3s ease-in;
 }
