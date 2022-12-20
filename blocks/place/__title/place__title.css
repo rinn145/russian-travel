@@ -10,10 +10,11 @@
   display: flex;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    word-spacing: 40px;
   }
 }
 

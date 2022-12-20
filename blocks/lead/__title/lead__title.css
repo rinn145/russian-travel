@@ -1,6 +1,6 @@
 /* 1280, 1024 */
 .lead__title {
-  margin: 0 40px 35px;
+  margin: 0 auto 32px;
   padding: 0;
   display: flex;
   max-width: 720px;
@@ -10,12 +10,6 @@
   font-size: 96px;
   line-height: 104%;
   text-align: center;
-}
-/* 1024 */
-@media screen and (max-width: 1024px) {
-  .lead__title {
-  margin-bottom: 32px;
-  }
 }
 
 @media screen and (max-width: 675px) {
